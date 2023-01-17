@@ -1,23 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{'/assets/css/main.css' | prepend: site.baseurl}}">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+    <link
+      rel="stylesheet"
+      href="{{'/assets/css/main.css' | prepend: site.baseurl}}"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>"
+    />
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column rainbow-border">
-      <header class="mb-auto py-3">
-      </header>
+    <div
+      class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column rainbow-border"
+    >
+      <header class="mb-auto py-3"></header>
 
       <main class="px-3">
-        <div id="rainbow"><div class="arc0"><div class="arc1"><div class="arc2"><div class="arc3"><div class="arc4"><div class="arc5"><div class="arc6"><div class="arc7"></div></div></div></div></div></div></div></div></div>
+        <div id="rainbow">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAAAXNSR0IArs4c6QAAASBJREFUSEvV1LENAjEMBVBnFSQKCgZBVOzBCggQK9weVIhBKCiQWOWQEPY5Fyf+OeUKKMEnHt/fBAJfHT16cNQd29M6uENEBA21hDEKAbo4DbvTFfnBxZkN7eRzD1jEtYaxCgVmcTnYjQ6T09vSRZ5FgCZuDhiraoAJDoL1blXTdMNw7Cgwi9Plj1Y5BcZUBzg+kAjHqSGwmj+96EsqgPKctc5cYjUwCU0v2gBaB/LFuT1Tq4xgJ+Bw1YyVYKl/YVYY2y0gcCCC83qWTexcSO+oPpsATHBuz/QqSzB2GUDvQLh/eZzXMwVbLFdJfO/Xc3iPgWD/YJy5TgfGKhj46x8fRz3OWKeV2DhCAZbW2wwHpoakJ91rjUNSS4Cj7v017gNq38arKnmo2wAAAABJRU5ErkJggg=="
+            alt="rainbow"
+          />
+        </div>
         <h1 class="display-1">Rainbow Pixels</h1>
-        <p class="lead">
-          {{ content }}
-        </p>
+        <p class="lead">{{ content }}</p>
       </main>
 
       <footer class="mt-auto text-white">
