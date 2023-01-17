@@ -27,7 +27,7 @@ description: >-
 baseurl: ""
 url: "https://rainbowpixels.dk"
 twitter_username: madsohm
-github_username:  omegahm
+github_username: omegahm
 
 # Build settings
 plugins:
@@ -41,6 +41,8 @@ sass:
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - package-lock.json
+  - package.json
   - node_modules
   - gemfiles/
   - Gemfile
